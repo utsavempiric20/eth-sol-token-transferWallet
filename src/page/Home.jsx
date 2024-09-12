@@ -28,7 +28,7 @@ const Home = () => {
   const [provider, setProvider] = useState(null);
   const [senderAddress, setSenderAddress] = useState("");
 
-  const projectId = "b99808495fb88a9489d8d9b6001e2d75";
+  const projectId = "";
   const chains = [solana, solanaTestnet, solanaDevnet];
 
   const metadata = {
